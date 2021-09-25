@@ -1,0 +1,17 @@
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\tasks.c
+..\..\..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\string.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
+..\..\..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\..\build\keil\tasks.o: ..\..\app\FreeRTOSConfig.h
+..\..\..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\portmacro.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\mpu_wrappers.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\task.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\list.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\timers.h
+..\..\..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\StackMacros.h

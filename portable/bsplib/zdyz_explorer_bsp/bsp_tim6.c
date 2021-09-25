@@ -14,7 +14,7 @@ void BSP_TIM6_Init(void)
 
     NVIC_InitStructure.NVIC_IRQChannel = TIM6_DAC_IRQn;
     NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 8;
+    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 15;
     NVIC_Init(&NVIC_InitStructure);
     TIM_ITConfig(TIM6, TIM_IT_Update, ENABLE); //允许定时器6更新中断
     NVIC_EnableIRQ(TIM6_DAC_IRQn);             //使能TIM6中断

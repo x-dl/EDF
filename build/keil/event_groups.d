@@ -1,0 +1,16 @@
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\event_groups.c
+..\..\..\..\build\keil\event_groups.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
+..\..\..\..\build\keil\event_groups.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\..\..\build\keil\event_groups.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\..\build\keil\event_groups.o: ..\..\app\FreeRTOSConfig.h
+..\..\..\..\build\keil\event_groups.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\portmacro.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\mpu_wrappers.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\task.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\list.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\timers.h
+..\..\..\..\build\keil\event_groups.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\event_groups.h

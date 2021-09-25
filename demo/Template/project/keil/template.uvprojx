@@ -48,7 +48,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>..\..\build\keil\</OutputDirectory>
+          <OutputDirectory>..\..\..\..\build\keil\</OutputDirectory>
           <OutputName>EE</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\portable\fwlib\stm32f4xx_lib\inc;..\..\portable\bsplib\zdyz_explorer_bsp;..\..\app\hello-world;..\..\portable\startlib\stm32f40_41xxx_start;..\..\portable\startlib\stm32f40_41xxx_start\portable\keil</IncludePath>
+              <IncludePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start;..\..\..\..\portable\fwlib\stm32f4xx_lib\inc;..\..\..\..\portable\bsplib\zdyz_explorer_bsp;..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil;..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include;..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F;..\..\app</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -384,19 +384,19 @@
           <GroupName>startup</GroupName>
           <Files>
             <File>
-              <FileName>stm32f4xx_it.c</FileName>
+              <FileName>system_stm32f4xx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\startlib\stm32f40_41xxx_start\stm32f4xx_it.c</FilePath>
+              <FilePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start\system_stm32f4xx.c</FilePath>
             </File>
             <File>
               <FileName>startup_stm32f40_41xxx.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\startup_stm32f40_41xxx.s</FilePath>
+              <FilePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\startup_stm32f40_41xxx.s</FilePath>
             </File>
             <File>
-              <FileName>system_stm32f4xx.c</FileName>
+              <FileName>pad_stm32f4xx_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\startlib\stm32f40_41xxx_start\system_stm32f4xx.c</FilePath>
+              <FilePath>..\..\app\pad_stm32f4xx_it.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -406,177 +406,177 @@
             <File>
               <FileName>misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\misc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\misc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_adc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_adc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_can.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_can.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_crc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_crc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_cryp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_cryp_aes.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp_aes.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp_aes.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_cryp_des.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp_des.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp_des.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_cryp_tdes.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp_tdes.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_cryp_tdes.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dac.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dac.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_dbgmcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dbgmcu.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dbgmcu.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_dcmi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dcmi.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dcmi.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dma.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dma.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_dma2d.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dma2d.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_dma2d.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_exti.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_exti.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_flash.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_flash.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_flash_ramfunc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_flash_ramfunc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_flash_ramfunc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_fsmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_fsmc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_fsmc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_gpio.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_gpio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_hash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_hash.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_hash.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_hash_md5.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_hash_md5.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_hash_md5.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_hash_sha1.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_hash_sha1.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_hash_sha1.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_i2c.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_i2c.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_iwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_iwdg.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_iwdg.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_ltdc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_ltdc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_ltdc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_pwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_pwr.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_pwr.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_rcc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_rcc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_rng.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_rng.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_rng.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_rtc.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_rtc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_sai.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_sai.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_sai.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_sdio.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_sdio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_spi.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_spi.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_syscfg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_syscfg.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_syscfg.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_tim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_tim.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_tim.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_usart.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_usart.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_wwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_wwdg.c</FilePath>
+              <FilePath>..\..\..\..\portable\fwlib\stm32f4xx_lib\src\stm32f4xx_wwdg.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -586,12 +586,12 @@
             <File>
               <FileName>bsp_tim6.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\bsplib\zdyz_explorer_bsp\bsp_tim6.c</FilePath>
+              <FilePath>..\..\..\..\portable\bsplib\zdyz_explorer_bsp\bsp_tim6.c</FilePath>
             </File>
             <File>
               <FileName>bsp_uart1.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\portable\bsplib\zdyz_explorer_bsp\bsp_uart1.c</FilePath>
+              <FilePath>..\..\..\..\portable\bsplib\zdyz_explorer_bsp\bsp_uart1.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -601,12 +601,64 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\app\hello-world\main.c</FilePath>
+              <FilePath>..\..\app\main.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
           <GroupName>COM_freertos</GroupName>
+          <Files>
+            <File>
+              <FileName>croutine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\croutine.c</FilePath>
+            </File>
+            <File>
+              <FileName>event_groups.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\event_groups.c</FilePath>
+            </File>
+            <File>
+              <FileName>list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>tasks.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\tasks.c</FilePath>
+            </File>
+            <File>
+              <FileName>timers.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\timers.c</FilePath>
+            </File>
+            <File>
+              <FileName>heap_4.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\MemMang\heap_4.c</FilePath>
+            </File>
+            <File>
+              <FileName>port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\port.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>app</GroupName>
+          <Files>
+            <File>
+              <FileName>FreeRTOSConfig.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\app\FreeRTOSConfig.h</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
