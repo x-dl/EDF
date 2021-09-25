@@ -1,4 +1,4 @@
-..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\tasks.c
+..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-Padding\tasks.c
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\string.h
 ..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
@@ -6,6 +6,14 @@
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\build\keil\tasks.o: ..\..\app\FreeRTOSConfig.h
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\Sample\FreeRTOSV9\SEGGER_SYSVIEW_FreeRTOS.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER.h
+..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\Config\Global.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW_ConfDefaults.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\Config\SEGGER_SYSVIEW_Conf.h
+..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\Config\SEGGER_RTT_Conf.h
 ..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
 ..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
 ..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h

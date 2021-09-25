@@ -1,0 +1,12 @@
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.c
+..\..\build\keil\segger_sysview.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\string.h
+..\..\build\keil\segger_sysview.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\build\keil\segger_sysview.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW_Int.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\Config\Global.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW_ConfDefaults.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\Config\SEGGER_SYSVIEW_Conf.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\Config\SEGGER_RTT_Conf.h
+..\..\build\keil\segger_sysview.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_RTT.h

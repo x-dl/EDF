@@ -186,5 +186,6 @@ standard names. */
 #define vPortSVCHandler SVC_Handler
 #define xPortPendSVHandler PendSV_Handler
 /* A header file that defines trace macro can be included here. */
+#include "SEGGER_SYSVIEW_FreeRTOS.h"
 #endif /* FREERTOS_CONFIG_H */
 
