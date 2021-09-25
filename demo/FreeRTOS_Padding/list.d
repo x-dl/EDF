@@ -1,0 +1,13 @@
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\list.c
+..\..\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
+..\..\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\list.o: ..\..\app\FreeRTOSConfig.h
+..\..\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\portmacro.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\mpu_wrappers.h
+..\..\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\list.h

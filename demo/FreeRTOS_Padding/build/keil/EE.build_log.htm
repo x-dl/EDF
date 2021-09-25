@@ -21,15 +21,20 @@ Target DLL:      Segger\JL2CM3.dll V2.99.38.0
 Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
-C:\Users\Jasper\Desktop\EDF\demo\Template\project\keil\template.uvprojx
+C:\Users\Jasper\Desktop\EDF\demo\FreeRTOS_Padding\project\keil\template.uvprojx
 Project File Date:  09/25/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\mcu\keil5\ARM\ARMCC\Bin'
 Build target 'template'
+compiling Retarget.cpp...
 linking...
-Program Size: Code=2456 RO-data=424 RW-data=24 ZI-data=1120  
-"..\..\build\keil\EE.axf" - 0 Error(s), 0 Warning(s).
+..\..\build\keil\EE.axf: Error: L6915E: Library reports error: __use_no_semihosting_swi was requested, but _sys_exit was referenced
+..\..\build\keil\EE.axf: Error: L6915E: Library reports error: __use_no_semihosting_swi was requested, but _sys_open was referenced
+..\..\build\keil\EE.axf: Error: L6915E: Library reports error: __use_no_semihosting_swi was requested, but _ttywrch was referenced
+Not enough information to list load addresses in the image map.
+Finished: 1 information, 0 warning and 3 error messages.
+"..\..\build\keil\EE.axf" - 3 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -42,7 +47,8 @@ Package Vendor: Keil
   D:\mcu\keil5\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:00
+Target not created.
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

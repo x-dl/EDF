@@ -1,4 +1,4 @@
-..\..\build\keil\main.o: ..\..\app\hello-world\main.c
+..\..\build\keil\main.o: ..\..\app\main.c
 ..\..\build\keil\main.o: ..\..\..\..\portable\startlib\stm32f40_41xxx_start\stm32f4xx.h
 ..\..\build\keil\main.o: ..\..\..\..\portable\startlib\stm32f40_41xxx_start\core_cm4.h
 ..\..\build\keil\main.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -34,7 +34,16 @@
 ..\..\build\keil\main.o: ..\..\..\..\portable\fwlib\stm32f4xx_lib\inc\stm32f4xx_dac.h
 ..\..\build\keil\main.o: ..\..\..\..\portable\fwlib\stm32f4xx_lib\inc\stm32f4xx_dcmi.h
 ..\..\build\keil\main.o: ..\..\..\..\portable\fwlib\stm32f4xx_lib\inc\stm32f4xx_fsmc.h
+..\..\build\keil\main.o: ..\..\..\..\portable\startlib\stm32f40_41xxx_start\core_cm4.h
 ..\..\build\keil\main.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-..\..\build\keil\main.o: ..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\ReTarget.h
-..\..\build\keil\main.o: ..\..\..\..\portable\bsplib\zdyz_explorer_bsp\bsp_tim6.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
+..\..\build\keil\main.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\build\keil\main.o: ..\..\app\FreeRTOSConfig.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\portmacro.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\mpu_wrappers.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\task.h
+..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\list.h
 ..\..\build\keil\main.o: ..\..\..\..\portable\bsplib\zdyz_explorer_bsp\bsp_uart1.h

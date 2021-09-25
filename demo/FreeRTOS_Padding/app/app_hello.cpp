@@ -1,5 +1,6 @@
 #include "FreeRTOS.h"
 #include "task.h"
+
 //任务优先级
 #define START_TASK_PRIO 1
 //任务堆栈大小
@@ -17,10 +18,9 @@ void start_task(void *pvParameters);
 TaskHandle_t Task1Task_Handler;
 //任务函数
 void task1_task(void *pvParameters);
-extern "C" void app_hello_main(void);
-void app_hello_main(void)
-{
 
+extern "C" void app_hello_main(void)
+{
     xTaskCreate((TaskFunction_t)start_task,			 //任务函数
 				(const char *)"start_task",			 //任务名称
 				(uint16_t)START_STK_SIZE,			 //任务堆栈大小
@@ -45,7 +45,7 @@ void task1_task(void *pvParameters)
 {
 	while (1)
 	{
-		printf("hello world\r\n");
+		printf("hello world!!!\r\n");
 		vTaskDelay(1000);										  //延时1s，也就是1000个时钟节拍
 	}
 }

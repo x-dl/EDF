@@ -49,7 +49,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>..\..\..\..\build\keil\</OutputDirectory>
+          <OutputDirectory>..\..\</OutputDirectory>
           <OutputName>EE</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -398,6 +398,11 @@
               <FileName>pad_stm32f4xx_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\app\pad_stm32f4xx_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>Retarget.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\Retarget.c</FilePath>
             </File>
           </Files>
         </Group>

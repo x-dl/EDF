@@ -1,0 +1,13 @@
+..\..\pad_stm32f4xx_it.o: ..\..\app\pad_stm32f4xx_it.c
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
+..\..\pad_stm32f4xx_it.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\pad_stm32f4xx_it.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\pad_stm32f4xx_it.o: ..\..\app\FreeRTOSConfig.h
+..\..\pad_stm32f4xx_it.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\portmacro.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\mpu_wrappers.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\task.h
+..\..\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\list.h
