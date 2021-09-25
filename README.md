@@ -1,2 +1,2 @@
 # EDF
-Embedded Develop Framework
+Embedded Development Framework
