@@ -36,10 +36,9 @@
 ..\..\..\..\build\keil\main.o: ..\..\..\..\portable\fwlib\stm32f4xx_lib\inc\stm32f4xx_fsmc.h
 ..\..\..\..\build\keil\main.o: ..\..\..\..\portable\startlib\stm32f40_41xxx_start\core_cm4.h
 ..\..\..\..\build\keil\main.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-..\..\..\..\build\keil\main.o: ..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\ReTarget.h
 ..\..\..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\..\..\build\keil\main.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\..\..\build\keil\main.o: ..\..\app\FreeRTOSConfig.h
+..\..\..\..\build\keil\main.o: ..\..\config\FreeRTOSConfig.h
 ..\..\..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
 ..\..\..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
 ..\..\..\..\build\keil\main.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h

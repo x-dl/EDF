@@ -4,7 +4,7 @@
 ..\..\..\..\build\keil\queue.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\..\..\build\keil\queue.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\..\..\build\keil\queue.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\..\..\build\keil\queue.o: ..\..\app\FreeRTOSConfig.h
+..\..\..\..\build\keil\queue.o: ..\..\config\FreeRTOSConfig.h
 ..\..\..\..\build\keil\queue.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\..\..\build\keil\queue.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
 ..\..\..\..\build\keil\queue.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h

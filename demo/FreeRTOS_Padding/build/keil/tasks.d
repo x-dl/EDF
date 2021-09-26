@@ -4,7 +4,7 @@
 ..\..\build\keil\tasks.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\build\keil\tasks.o: ..\..\app\FreeRTOSConfig.h
+..\..\build\keil\tasks.o: ..\..\config\FreeRTOSConfig.h
 ..\..\build\keil\tasks.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\Sample\FreeRTOSV9\SEGGER_SYSVIEW_FreeRTOS.h
 ..\..\build\keil\tasks.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.h

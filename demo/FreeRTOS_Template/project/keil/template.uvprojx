@@ -49,7 +49,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>..\..\..\..\build\keil\</OutputDirectory>
+          <OutputDirectory>..\..\build\keil\</OutputDirectory>
           <OutputName>EE</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -340,7 +340,7 @@
               <MiscControls>--cpp11</MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start;..\..\..\..\portable\fwlib\stm32f4xx_lib\inc;..\..\..\..\portable\bsplib\zdyz_explorer_bsp;..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil;..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include;..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F;..\..\app</IncludePath>
+              <IncludePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start;..\..\..\..\portable\fwlib\stm32f4xx_lib\inc;..\..\..\..\portable\bsplib\zdyz_explorer_bsp;..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil;..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include;..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F;..\..\app;..\..\config</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -390,14 +390,19 @@
               <FilePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start\system_stm32f4xx.c</FilePath>
             </File>
             <File>
+              <FileName>pad_stm32f4xx_it.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\config\pad_stm32f4xx_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>Retarget.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\Retarget.c</FilePath>
+            </File>
+            <File>
               <FileName>startup_stm32f40_41xxx.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\startup_stm32f40_41xxx.s</FilePath>
-            </File>
-            <File>
-              <FileName>pad_stm32f4xx_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\app\pad_stm32f4xx_it.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -610,6 +615,11 @@
           <GroupName>COM_freertos</GroupName>
           <Files>
             <File>
+              <FileName>FreeRTOSConfig.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\config\FreeRTOSConfig.h</FilePath>
+            </File>
+            <File>
               <FileName>list.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\list.c</FilePath>
@@ -644,11 +654,6 @@
         <Group>
           <GroupName>app</GroupName>
           <Files>
-            <File>
-              <FileName>FreeRTOSConfig.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\app\FreeRTOSConfig.h</FilePath>
-            </File>
             <File>
               <FileName>app_hello.cpp</FileName>
               <FileType>8</FileType>

@@ -2,7 +2,7 @@
 ..\..\..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\..\..\build\keil\app_hello.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\..\..\build\keil\app_hello.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\..\..\build\keil\app_hello.o: ..\..\app\FreeRTOSConfig.h
+..\..\..\..\build\keil\app_hello.o: ..\..\config\FreeRTOSConfig.h
 ..\..\..\..\build\keil\app_hello.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
 ..\..\..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h

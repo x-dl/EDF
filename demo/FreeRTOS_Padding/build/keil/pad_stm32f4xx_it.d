@@ -1,8 +1,8 @@
-..\..\build\keil\pad_stm32f4xx_it.o: ..\..\app\pad_stm32f4xx_it.c
+..\..\build\keil\pad_stm32f4xx_it.o: ..\..\config\pad_stm32f4xx_it.c
 ..\..\build\keil\pad_stm32f4xx_it.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\build\keil\pad_stm32f4xx_it.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\build\keil\pad_stm32f4xx_it.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\build\keil\pad_stm32f4xx_it.o: ..\..\app\FreeRTOSConfig.h
+..\..\build\keil\pad_stm32f4xx_it.o: ..\..\config\FreeRTOSConfig.h
 ..\..\build\keil\pad_stm32f4xx_it.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\build\keil\pad_stm32f4xx_it.o: ..\..\..\..\components\SystemView-V3.3\Sample\FreeRTOSV9\SEGGER_SYSVIEW_FreeRTOS.h
 ..\..\build\keil\pad_stm32f4xx_it.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.h

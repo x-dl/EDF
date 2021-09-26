@@ -2,7 +2,7 @@
 ..\..\build\keil\segger_sysview_freertos.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\build\keil\segger_sysview_freertos.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\build\keil\segger_sysview_freertos.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\build\keil\segger_sysview_freertos.o: ..\..\app\FreeRTOSConfig.h
+..\..\build\keil\segger_sysview_freertos.o: ..\..\config\FreeRTOSConfig.h
 ..\..\build\keil\segger_sysview_freertos.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\build\keil\segger_sysview_freertos.o: ..\..\..\..\components\SystemView-V3.3\Sample\FreeRTOSV9\SEGGER_SYSVIEW_FreeRTOS.h
 ..\..\build\keil\segger_sysview_freertos.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.h

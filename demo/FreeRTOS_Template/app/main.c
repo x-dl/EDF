@@ -1,7 +1,6 @@
 #include "stm32f4xx.h" //STM32系统头文件
 #include "core_cm4.h"
 #include "stdio.h"
-#include "ReTarget.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "bsp_uart1.h"

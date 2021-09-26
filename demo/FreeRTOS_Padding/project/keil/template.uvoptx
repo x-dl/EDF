@@ -359,8 +359,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\app\pad_stm32f4xx_it.c</PathWithFileName>
-      <FilenameWithoutPath>pad_stm32f4xx_it.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\Retarget.c</PathWithFileName>
+      <FilenameWithoutPath>Retarget.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -371,8 +371,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\portable\startlib\stm32f40_41xxx_start\portable\keil\Retarget.c</PathWithFileName>
-      <FilenameWithoutPath>Retarget.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\config\pad_stm32f4xx_it.c</PathWithFileName>
+      <FilenameWithoutPath>pad_stm32f4xx_it.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -871,7 +871,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\app\FreeRTOSConfig.h</PathWithFileName>
+      <PathWithFileName>..\..\config\FreeRTOSConfig.h</PathWithFileName>
       <FilenameWithoutPath>FreeRTOSConfig.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

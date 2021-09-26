@@ -3,7 +3,7 @@
 ..\..\build\keil\list.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\build\keil\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\build\keil\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\build\keil\list.o: ..\..\app\FreeRTOSConfig.h
+..\..\build\keil\list.o: ..\..\config\FreeRTOSConfig.h
 ..\..\build\keil\list.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\build\keil\list.o: ..\..\..\..\components\SystemView-V3.3\Sample\FreeRTOSV9\SEGGER_SYSVIEW_FreeRTOS.h
 ..\..\build\keil\list.o: ..\..\..\..\components\SystemView-V3.3\SEGGER\SEGGER_SYSVIEW.h

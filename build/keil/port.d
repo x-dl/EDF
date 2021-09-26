@@ -2,7 +2,7 @@
 ..\..\..\..\build\keil\port.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
 ..\..\..\..\build\keil\port.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\..\..\build\keil\port.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\..\..\..\build\keil\port.o: ..\..\app\FreeRTOSConfig.h
+..\..\..\..\build\keil\port.o: ..\..\config\FreeRTOSConfig.h
 ..\..\..\..\build\keil\port.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\..\..\build\keil\port.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
 ..\..\..\..\build\keil\port.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h

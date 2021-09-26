@@ -1,7 +1,7 @@
 --cpu=Cortex-M4.fp.sp
 "..\..\..\..\build\keil\system_stm32f4xx.o"
-"..\..\..\..\build\keil\startup_stm32f40_41xxx.o"
 "..\..\..\..\build\keil\pad_stm32f4xx_it.o"
+"..\..\..\..\build\keil\retarget.o"
 "..\..\..\..\build\keil\misc.o"
 "..\..\..\..\build\keil\stm32f4xx_adc.o"
 "..\..\..\..\build\keil\stm32f4xx_can.o"

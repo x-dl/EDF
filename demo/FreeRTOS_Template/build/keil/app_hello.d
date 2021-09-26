@@ -1,0 +1,13 @@
+..\..\build\keil\app_hello.o: ..\..\app\app_hello.cpp
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\FreeRTOS.h
+..\..\build\keil\app_hello.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\build\keil\app_hello.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\build\keil\app_hello.o: ..\..\config\FreeRTOSConfig.h
+..\..\build\keil\app_hello.o: D:\mcu\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\projdefs.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\portable.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\deprecated_definitions.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\portable\RVDS\ARM_CM4F\portmacro.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\mpu_wrappers.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\task.h
+..\..\build\keil\app_hello.o: ..\..\..\..\components\FreeRTOS-Kernel-V9.0.0\include\list.h
