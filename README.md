@@ -13,4 +13,4 @@ if you want to use this framework,the following step is:
 #### Based on FreeRTOS padding template also have been built,usage step is as same as bare board
 ## 2021.10.2
 #### Add dbs threadx application in demo direct.And fix the bug that Connecting to wifi in the wrong way
-#### Esp8266 uart interrupt must be a little higher priority than freertos that it can control the maximum priority 
+#### Esp8266 uart interrupt must be a little higher priority than freertos that it can control the maximum of priority 
