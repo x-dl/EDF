@@ -8,6 +8,7 @@ if you want to use this framework,the following step is:
 ### 2.just open /project/keil/template.uvprojx
 ### 3.build and run
 ### 4.see what happen by watching the result on serial debug assistant
+# Bug fixed Timeline
 ## 2021.9.25
 #### Based on FreeRTOS template have been built,usage step is as same as bare board
 #### Based on FreeRTOS padding template also have been built,usage step is as same as bare board
