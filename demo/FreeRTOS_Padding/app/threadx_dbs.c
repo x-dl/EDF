@@ -4,8 +4,8 @@
  * @Author: Jasper
  * @Date: 2021-09-19 15:26:28
  * @LastEditors: Jasper
- * @LastEditTime: 2021-10-02 09:36:17
- * @FilePath: \FreeRTOS_Padding\app\threadx_dbs.c
+ * @LastEditTime: 2021-10-03 13:16:25
+ * @FilePath: \FreeRTOS_Paddingc:\Users\Jasper\Desktop\EDF\demo\FreeRTOS_Padding\app\threadx_dbs.c
  */
 #include "FreeRTOS.h"
 #include "stm32f4xx.h"
@@ -227,13 +227,20 @@ void Sever_task(void *pvParameters)
                             taskENTER_CRITICAL(); //进入临界区
                             ucpsend_item = USART_RX_BUF;
                             Current_IDtask = IDArray;
-                            Current_IDtask += (*ucpsend_item - '0'); /* 记录此时需要服务的客户端 */
-                            vTaskDelete(Current_IDtask->IDTask_Handler);
-                            Current_IDtask->IDTask_Handler = NULL;
+                            Current_IDtask += (*ucpsend_item - '0');    /* 记录此时需要服务的客户端 */
+                            if (Current_IDtask->IDTask_Handler != NULL) /* 如果任务句柄不为0，那么就删除该任务控制块 */
+                            {
+                                vTaskDelete(Current_IDtask->IDTask_Handler);
+                                Current_IDtask->IDTask_Handler = NULL;
+                            }
+                            else
+                            {
+                            }
                             Current_IDtask->client_status = pdFALSE; /* 客户端进行注册 */
                             Current_IDtask->thread_status = pdFALSE;
                             Current_IDtask->thread_ID = NULL;
                             memset(Current_IDtask->task, 0, sizeof(Current_IDtask->task));
+                            isr_flag = pdTRUE; //为了能让串口接收到数据 ，这里必须确保变量为真
                             taskEXIT_CRITICAL();
                             break;
                         case 3:
@@ -241,13 +248,20 @@ void Sever_task(void *pvParameters)
                             taskENTER_CRITICAL(); //进入临界区
                             ucpsend_item = USART_RX_BUF;
                             Current_IDtask = IDArray;
-                            Current_IDtask += (*ucpsend_item - '0'); /* 记录此时需要服务的客户端 */
-                            vTaskDelete(Current_IDtask->IDTask_Handler);
-                            Current_IDtask->IDTask_Handler = NULL;
+                            Current_IDtask += (*ucpsend_item - '0');    /* 记录此时需要服务的客户端 */
+                            if (Current_IDtask->IDTask_Handler != NULL) /* 如果任务句柄不为0，那么就删除该任务控制块 */
+                            {
+                                vTaskDelete(Current_IDtask->IDTask_Handler);
+                                Current_IDtask->IDTask_Handler = NULL;
+                            }
+                            else
+                            {
+                            }
                             Current_IDtask->client_status = pdFALSE; /* 客户端进行注册 */
                             Current_IDtask->thread_status = pdFALSE;
                             Current_IDtask->thread_ID = NULL;
                             memset(Current_IDtask->task, 0, sizeof(Current_IDtask->task));
+                            isr_flag = pdTRUE; //为了能让串口接收到数据 ，这里必须确保变量为真
                             taskEXIT_CRITICAL();
                             break;
                             /* 一下是服务器提供的服务，默认是6个服务，可以继续增加 */
@@ -382,7 +396,7 @@ static void BSP_UART_Init(void)
 
     /* Enable the USARTy Interrupt */
     NVIC_InitStructure.NVIC_IRQChannel = USART3_IRQn;
-    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY-1;//优先级越高，抢占优先级数目越小
+    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY - 1; //优先级越高，抢占优先级数目越小
     NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
     NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
     NVIC_Init(&NVIC_InitStructure);
