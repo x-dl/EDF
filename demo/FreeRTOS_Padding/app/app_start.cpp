@@ -12,7 +12,7 @@ static TaskHandle_t Task1Task_Handler;
 //任务函数
 void task1_task(void *pvParameters);
 
-extern "C" void app_hello_main(void)
+extern "C" void app_main(void)
 {
 		taskENTER_CRITICAL(); //进入临界区
 		xTaskCreate((TaskFunction_t)task1_task,			 //任务函数

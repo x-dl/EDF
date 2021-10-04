@@ -690,9 +690,9 @@
           <GroupName>app</GroupName>
           <Files>
             <File>
-              <FileName>app_hello.cpp</FileName>
+              <FileName>app_start.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>..\..\app\app_hello.cpp</FilePath>
+              <FilePath>..\..\app\app_start.cpp</FilePath>
             </File>
           </Files>
         </Group>

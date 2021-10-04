@@ -52,7 +52,7 @@
 "..\..\build\keil\segger_rtt.o"
 "..\..\build\keil\segger_rtt_printf.o"
 "..\..\build\keil\segger_sysview.o"
-"..\..\build\keil\app_hello.o"
+"..\..\build\keil\app_start.o"
 --strict --scatter "..\..\build\keil\EE.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

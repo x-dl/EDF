@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\..\build\keil\EE.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\..\build\keil\EE.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sun Sep 26 10:52:15 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Mon Oct 04 16:39:06 2021
 <BR><P>
 <H3>Maximum Stack Usage =        484 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -125,7 +125,7 @@ Function Pointers
  <LI><a href="#[53]">USART6_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[7]">UsageFault_Handler</a> from pad_stm32f4xx_it.o(i.UsageFault_Handler) referenced from startup_stm32f40_41xxx.o(RESET)
  <LI><a href="#[c]">WWDG_IRQHandler</a> from startup_stm32f40_41xxx.o(.text) referenced from startup_stm32f40_41xxx.o(RESET)
- <LI><a href="#[63]">[local to app_hello_cpp]::task1_task(void*)</a> from app_hello.o(i._ZN35_INTERNAL_13_app_hello_cpp_778a27ed10task1_taskEPv) referenced from app_hello.o(i.app_hello_main)
+ <LI><a href="#[63]">[local to app_start_cpp]::task1_task(void*)</a> from app_start.o(i._ZN35_INTERNAL_13_app_start_cpp_app_main10task1_taskEPv) referenced from app_start.o(i.app_main)
  <LI><a href="#[6a]">__main</a> from __main.o(!!!main) referenced from startup_stm32f40_41xxx.o(.text)
  <LI><a href="#[68]">_cbGetTime</a> from segger_sysview_freertos.o(i._cbGetTime) referenced from segger_sysview_freertos.o(.constdata)
  <LI><a href="#[62]">_cbSendSystemDesc</a> from segger_sysview_config_freertos.o(i._cbSendSystemDesc) referenced from segger_sysview_config_freertos.o(i.SEGGER_SYSVIEW_Conf)
@@ -619,7 +619,7 @@ Global Symbols
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSwitchContext
 <LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
 <LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to app_hello_cpp]::task1_task(void*)
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to app_start_cpp]::task1_task(void*)
 </UL>
 
 <P><STRONG><a name="[83]"></a>__printf</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, __printf.o(.text))
@@ -1248,9 +1248,9 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
 </UL>
 
-<P><STRONG><a name="[d0]"></a>app_hello_main</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, app_hello.o(i.app_hello_main))
+<P><STRONG><a name="[d0]"></a>app_main</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, app_start.o(i.app_main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 332 + Unknown Stack Size
-<LI>Call Chain = app_hello_main &rArr; xTaskCreate &rArr; prvAddNewTaskToReadyList &rArr; SYSVIEW_AddTask &rArr; SYSVIEW_SendTaskInfo &rArr; SEGGER_SYSVIEW_SendTaskInfo &rArr; _SendPacket &rArr; _HandleIncomingPacket &rArr; SEGGER_RTT_ReadNoLock &rArr; _DoInit &rArr; strcpy
+<LI>Call Chain = app_main &rArr; xTaskCreate &rArr; prvAddNewTaskToReadyList &rArr; SYSVIEW_AddTask &rArr; SYSVIEW_SendTaskInfo &rArr; SEGGER_SYSVIEW_SendTaskInfo &rArr; _SendPacket &rArr; _HandleIncomingPacket &rArr; SEGGER_RTT_ReadNoLock &rArr; _DoInit &rArr; strcpy
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
@@ -1358,7 +1358,7 @@ Global Symbols
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueFull
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueEmpty
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
-<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_hello_main
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_main
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;start_task
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCheckForValidListAndQueue
 <LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCheckTasksWaitingTermination
@@ -1381,7 +1381,7 @@ Global Symbols
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueFull
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueEmpty
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
-<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_hello_main
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_main
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;start_task
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCheckForValidListAndQueue
 <LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCheckTasksWaitingTermination
@@ -1448,7 +1448,7 @@ Global Symbols
 <LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to app_hello_cpp]::task1_task(void*)
+<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to app_start_cpp]::task1_task(void*)
 </UL>
 
 <P><STRONG><a name="[102]"></a>vTaskDelete</STRONG> (Thumb, 214 bytes, Stack size 16 bytes, tasks.o(i.vTaskDelete))
@@ -1686,7 +1686,7 @@ Global Symbols
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
-<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_hello_main
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_main
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTimerCreateTimerTask
 </UL>
@@ -1820,12 +1820,12 @@ Local Symbols
 
 <P><STRONG><a name="[64]"></a>start_task</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, main.o(i.start_task))
 <BR><BR>[Stack]<UL><LI>Max Depth = 340 + Unknown Stack Size
-<LI>Call Chain = start_task &rArr; app_hello_main &rArr; xTaskCreate &rArr; prvAddNewTaskToReadyList &rArr; SYSVIEW_AddTask &rArr; SYSVIEW_SendTaskInfo &rArr; SEGGER_SYSVIEW_SendTaskInfo &rArr; _SendPacket &rArr; _HandleIncomingPacket &rArr; SEGGER_RTT_ReadNoLock &rArr; _DoInit &rArr; strcpy
+<LI>Call Chain = start_task &rArr; app_main &rArr; xTaskCreate &rArr; prvAddNewTaskToReadyList &rArr; SYSVIEW_AddTask &rArr; SYSVIEW_SendTaskInfo &rArr; SEGGER_SYSVIEW_SendTaskInfo &rArr; _SendPacket &rArr; _HandleIncomingPacket &rArr; SEGGER_RTT_ReadNoLock &rArr; _DoInit &rArr; strcpy
 </UL>
 <BR>[Calls]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
 <LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
-<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_hello_main
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_main
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> main.o(i.main)
 </UL>
@@ -2233,14 +2233,14 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_SendPacket
 </UL>
 
-<P><STRONG><a name="[63]"></a>[local to app_hello_cpp]::task1_task(void*)</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, app_hello.o(i._ZN35_INTERNAL_13_app_hello_cpp_778a27ed10task1_taskEPv))
+<P><STRONG><a name="[63]"></a>[local to app_start_cpp]::task1_task(void*)</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, app_start.o(i._ZN35_INTERNAL_13_app_start_cpp_app_main10task1_taskEPv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 204 + Unknown Stack Size
-<LI>Call Chain = [local to app_hello_cpp]::task1_task(void*) &rArr; vTaskDelay &rArr; xTaskResumeAll &rArr; xTaskIncrementTick &rArr; SEGGER_SYSVIEW_OnTaskStartReady &rArr; _SendPacket &rArr; _HandleIncomingPacket &rArr; SEGGER_RTT_ReadNoLock &rArr; _DoInit &rArr; strcpy
+<LI>Call Chain = [local to app_start_cpp]::task1_task(void*) &rArr; vTaskDelay &rArr; xTaskResumeAll &rArr; xTaskIncrementTick &rArr; SEGGER_SYSVIEW_OnTaskStartReady &rArr; _SendPacket &rArr; _HandleIncomingPacket &rArr; SEGGER_RTT_ReadNoLock &rArr; _DoInit &rArr; strcpy
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
-<BR>[Address Reference Count : 1]<UL><LI> app_hello.o(i.app_hello_main)
+<BR>[Address Reference Count : 1]<UL><LI> app_start.o(i.app_main)
 </UL>
 <P><STRONG><a name="[60]"></a>_printf_input_char</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, _printf_char_common.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> _printf_char_common.o(.text)

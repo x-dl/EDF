@@ -27,8 +27,8 @@ int main()
 static void start_task(void *pvParameters)
 {
 	taskENTER_CRITICAL(); 			//进入临界区
-void app_hello_main(void);
-	app_hello_main();
+void app_main(void);
+	app_main();
 	taskEXIT_CRITICAL();			//退出临界区
 	vTaskDelete(NULL);
 }
