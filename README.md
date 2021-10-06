@@ -17,3 +17,5 @@ if you want to use this framework,the following step is:
 #### Esp8266 uart interrupt must be a little higher priority than freertos that it can control the maximum of priority 
 ## 2021.10.3
 #### Fixed the error that when the threadx handler is NULL but still delete it ,so attribute to rasing an error
+## 2021.10.5
+#### Migrate the threadx_dbs.c to the esp8266-sever-component repo,and always maintain it on that repo
